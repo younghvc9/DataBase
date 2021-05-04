@@ -14,6 +14,11 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+        public Course(String Cname)
+        {
+            InitializeComponent();
+            label1.Text = "课程:"+Cname;
+        }
 
         private void Course_Load(object sender, EventArgs e)
         {
@@ -23,6 +28,12 @@ namespace WinFormsApp1
         private void button3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DatabaseDesign.Notice nc= new DatabaseDesign.Notice();
+            nc.Show();
         }
     }
 }

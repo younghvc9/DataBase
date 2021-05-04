@@ -35,5 +35,10 @@ namespace WinFormsApp1
             DatabaseDesign.CreatCourse crtC = new DatabaseDesign.CreatCourse();
             crtC.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }

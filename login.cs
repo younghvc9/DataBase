@@ -13,6 +13,8 @@ namespace WinFormsApp1
 {
     public partial class login : Form
     {
+        public static bool identity=true;  //laoshi 
+        public static int id_card=1;
         public login()
         {
             InitializeComponent();

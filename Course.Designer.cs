@@ -35,8 +35,8 @@ namespace WinFormsApp1
             this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,6 +81,7 @@ namespace WinFormsApp1
             this.button4.TabIndex = 0;
             this.button4.Text = "考试";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label1
             // 
@@ -102,6 +103,14 @@ namespace WinFormsApp1
             this.panel1.Size = new System.Drawing.Size(584, 428);
             this.panel1.TabIndex = 2;
             // 
+            // domainUpDown1
+            // 
+            this.domainUpDown1.Location = new System.Drawing.Point(33, 48);
+            this.domainUpDown1.Name = "domainUpDown1";
+            this.domainUpDown1.Size = new System.Drawing.Size(149, 27);
+            this.domainUpDown1.TabIndex = 0;
+            this.domainUpDown1.Text = "domainUpDown1";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -110,14 +119,6 @@ namespace WinFormsApp1
             this.label2.Size = new System.Drawing.Size(54, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "目录：";
-            // 
-            // domainUpDown1
-            // 
-            this.domainUpDown1.Location = new System.Drawing.Point(33, 48);
-            this.domainUpDown1.Name = "domainUpDown1";
-            this.domainUpDown1.Size = new System.Drawing.Size(149, 27);
-            this.domainUpDown1.TabIndex = 0;
-            this.domainUpDown1.Text = "domainUpDown1";
             // 
             // Course
             // 

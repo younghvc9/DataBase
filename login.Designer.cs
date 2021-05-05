@@ -153,7 +153,7 @@ namespace WinFormsApp1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(549, 356);
+            this.button2.Location = new System.Drawing.Point(530, 356);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 41);
